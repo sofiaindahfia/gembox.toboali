@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:image" content="https://example.com/logo.jpg">
+  <meta name="description" content="Gembox Toboali adalah layanan sewa PS4 portable pertama di Toboali. Sewa PlayStation 4 lengkap dengan monitor dan stick, siap antar jemput.">
+  <title>Gembox Toboali</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: url('GEMBOX.TOBOALI.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      overflow-x: hidden;
+    }
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    header {
+      text-align: center;
+      padding: 30px 20px 20px;
+      background: rgba(0, 0, 0, 0.6);
+      position: relative;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.3em;
+    }
+    header p {
+      margin: 4px 0;
+      font-size: 1.1em;
+      letter-spacing: 1.5px;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .highlight {
+      font-size: 2em;
+      background: linear-gradient(to right, #ff00cc, #3333ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .cta-button {
+      background: #ff00cc;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background 0.3s;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .cta-button:hover {
+      background: #e600b8;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,0,255,0.4);
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 10px 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      transform: scale(1);
+    }
+    .social-links a:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a0033;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    nav {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    header img {
+      width: 100%;
+      max-width: 800px; /* lebih besar dari sebelumnya */
+      height: auto;
+      margin-bottom: 5px;
+    }
+
+    @media (min-width: 768px) {
+    header img {
+      max-width: 450px;
+    }
+    }
+    @media (max-width: 480px) {
+    section {
+      padding: 30px 15px;
+    }
+    }
+    @media (min-width: 1024px) {
+    header img {
+      max-width: 800px; /* ukuran ideal di layar besar */
+    }
+    }
+    @media (max-width: 480px) {
+    header img {
+      max-width: 90vw;
+    }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#pricelist">Pricelist</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <header id="beranda">
+    <img src="logo.jpg" alt="Logo Gembox Toboali - Sewa PS4 Portable">
+    <p>#1 PlayStation Portable di Toboali</p>
+    <p>Rent, Plug, Play. Repeat.</p>
+  </header>
+
+  <section id="tentang">
+    <div class="highlight">PS4 Portable Pertama di Toboali!</div>
+    <p>Sewa PlayStation 4 lengkap dengan monitor, stick, dan game terbaik — bisa dibawa kemanapun!</p>
+    <a class="cta-button" href="https://wa.me/6285168871110" target="_blank">
+  📲 Sewa via WhatsApp
+    </a>
+  </section>
+
+  <section style="background: #2e004f;">
+    <div class="highlight">Kenapa Pilih Gembox?</div>
+    <ul style="list-style: none; padding: 0;">
+      <li>&#x1F4A1 Hanya butuh aliran listrik sudah bisa dimainkan di mana saja</li>
+      <li>🎮 Cocok untuk event, nongkrong, atau di rumah</li>
+      <li>&#x1F947 Pilihan game banyak</li>
+      <li>&#128101 Seru untuk dimainkan bersama teman, keluarga, maupun pasangan</li>
+      <li>&#x1F680 Bisa antar jemput gratis ongkir</li>
+      <li>&#x1F4B2 Harga terjangkau</li>
+    </ul>
+  </section>
+
+  <section id="facilities">
+    <div class="highlight">Our facilities</div>
+    <div class="gallery">
+      <img src="ps4-setup1.jpg" alt="PS4 1 TB"> 
+      <img src="ps4-setup2.jpg" alt="SPEAKER">
+      <img src="ps4-setup3.jpg" alt="MONITOR 25INCH 100 HZ">
+      <img src="ps4-setup4.jpg" alt="2 PCS CONTROLLER">
+    </div>
+  </section>
+
+  <section id="pricelist" style="background: #2e004f;">
+    <div class="highlight">Pricelist</div>
+    <p>💰 1 Jam: 10k</p>
+    <p>💰 3 Jam: 25k</p>
+    <p>💰 5 Jam: 40k</p>
+    <p>💰 12 Jam: 100k</p>
+    <p>💰 24 Jam: 150k</p>
+    <p>💰 Paket Malam (23.00-08.00): 50k</p>
+  </section>
+
+  <section id="kontak" style="padding: 60px 20px; text-align: center;">
+  <div class="highlight">Kontak Kami</div>
+  <div class="social-links">
+    <a href="https://wa.me/6285168871110" target="_blank">WhatsApp</a>
+    <a href="https://instagram.com/gembox.toboali" target="_blank">Instagram</a>
+    <a href="https://facebook.com/gembox.toboali" target="_blank">Facebook</a>
+    <a href="https://tiktok.com/@gembox.toboali" target="_blank">TikTok</a>
+  </div>
+
+  <div style="margin-top: 40px;">
+    <h3 style="margin-bottom: 10px;">Lokasi Antar/Jemput Gembox Toboali (Samsat Toboali)</h3>
+    <div style="max-width: 100%; height: 400px; border-radius: 12px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4211.50322419093!2d106.47316439938668!3d-3.006976550422893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3d81a878a3311d%3A0xe32d107c149753fb!2sSamsat%20Toboali!5e0!3m2!1sid!2sid!4v1748689521277!5m2!1sid!2sid" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer>
+    &copy; 2025 Gembox Toboali. All rights reserved.<br />
+    Kontak: 0851-6887-1110 | Instagram: @gembox.toboali
+  </footer>
+  <a href="#beranda" style="position: fixed; bottom: 20px; right: 20px; background: #ff00cc; padding: 10px 15px; border-radius: 50%; color: white; text-decoration: none; font-size: 20px; box-shadow: 0 0 10px rgba(255,0,255,0.4);">↑</a>
+</body>
+</html>
